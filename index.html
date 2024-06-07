@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIS/COFINS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="topbar">
+        
+
+
+
+    </div>
+
+
+
+    <div id="container">
+        
+            <nav class="dados">
+                <h3 class="titulo">Aprendendo a calcular os valores do imput</h3>
+                <p>aos poucos isso aqui vai virar algo útil</p>
+                
+            </nav>
+<!--tabela de Créditos-->
+                <table>
+                        <thead> <!--Agrupa o cabeçalho da tabela-->
+                            <tr><!--Agrupa o cabeçalho da tabela-->
+                                <th></th><!--Agrupa o cabeçalho da tabela-->
+                                <th>Créditos</th>
+                                <th>PIS</th>
+                                <th>COFINS</th>
+                                
+                            
+                            </tr>
+                        </thead>
+                        <tbody> <!--Agrupa o corpo da tabela-->
+                        
+                            <tr>
+                                <td class="val">Texto aleatório para teste</td>
+                                <td><input type="number" id="input1" placeholder="imput1"></td>  
+                                
+                                <td><input type="number" id="PIS1" placeholder="Pis"></td>
+                                <td><input type="number" id="COFINS1" placeholder="Cofins"></td>
+                            </tr>               
+                            <tr>
+                                <td class="val">Texto aleatório para teste</td>
+                                <td> <input type="number" id="input2" placeholder="imput2"> </td>
+                                
+                                <td><input type="number" id="PIS1" placeholder="Pis"></td>
+                                <td><input type="number" id="COFINS1" placeholder="Cofins"></td>
+
+                            </tr>
+
+                            <tr>
+                                <td class="val">Texto aleatório para teste</td>
+                                <td> <input type="number" id="input3" placeholder="imput3"> </td>
+                                
+                                <td><input type="number" id="PIS1" placeholder="Pis"></td>
+                                <td><input type="number" id="COFINS1" placeholder="Cofins"></td>
+                            </tr>
+                            <tr>
+                                <td class="val">Texto aleatório para teste</td>
+                                <td> <input type="number" id="input4" placeholder="imput4"> </td> 
+                                
+                                <td><input type="number" id="PIS1" placeholder="Pis"></td>
+                                <td><input type="number" id="COFINS1" placeholder="Cofins"></td>
+                            </tr>
+                            <tr>
+                                <td class="val">Texto aleatório para teste</td>
+                                <td> <input type="number" id="input5" placeholder="imput5"> </td>
+                                
+                                <td><input type="number" id="PIS1" placeholder="Pis"></td>
+                                <td><input type="number" id="COFINS1" placeholder="Cofins"></td>
+                            </tr>
+                            <tr>
+                                <td class="val">Texto aleatório para teste</td>
+                                <td> <input type="number" id="input5" placeholder="imput5"> </td>
+                                
+                                <td><input type="number" id="PIS1" placeholder="Pis"></td>
+                                <td><input type="number" id="COFINS1" placeholder="Cofins"></td>
+                            </tr>
+                            <tr>
+                                <td class="val">Texto aleatório para teste</td>
+                                <td> <input type="number" id="input5" placeholder="imput5"> </td>
+                                
+                                <td><input type="number" id="PIS1" placeholder="Pis"></td>
+                                <td><input type="number" id="COFINS1" placeholder="Cofins"></td>
+                            </tr>
+
+
+                    </table>
+
+                   
+                        
+                    
+                    </tr>
+                </thead>
+                <tbody> <!--Agrupa o corpo da tabela-->
+                
+
+
+
+
+
+                <!--tabela de Débitos-->
+
+
+                <table>
+                    <thead> <!--Agrupa o cabeçalho da tabela-->
+                        
+
+                        <tr></tr>
+                        <tr >
+                            <th></th>
+                            <th>Débitos</th>
+                            <th>PIS</th>
+                            <th>COFINS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        </tr>
+                        <tr>
+                            <td class="val">Texto aleatório para teste</td>
+                            <td><input type="number" id="input1" placeholder="imput1"></td>  
+                            
+                            <td><input type="number" id="PIS1" placeholder="Pis"></td>
+                            <td><input type="number" id="COFINS1" placeholder="Cofins"></td>
+
+                        </tr>
+                        <tr>
+                            <td class="val">Texto aleatório para teste</td>
+                            <td><input type="number" id="input1" placeholder="imput1"></td>  
+                            
+                            <td><input type="number" id="PIS1" placeholder="Pis"></td>
+                            <td><input type="number" id="COFINS1" placeholder="Cofins"></td>
+                        </tr>  
+                        <tr>
+                            <td class="val">Texto aleatório para teste</td>
+                            <td><input type="number" id="input1" placeholder="imput1"></td>  
+                            
+                            <td><input type="number" id="PIS1" placeholder="Pis"></td>
+                            <td><input type="number" id="COFINS1" placeholder="Cofins"></td>
+                        </tr>    
+                    </tbody>
+
+
+
+                </table>
+
+                <nav class="btns">
+                    <button id="blueButton" onclick="multiplicar()">Configurações</button> 
+                    <button id="blueButton" onclick="multiplicar()">Visualizar</button>
+                    <button id="blueButton" onclick="multiplicar()">exportar pdf</button>
+                    <button id="blueButton" onclick="multiplicar()">Exportar para Excel</button>
+                </nav>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    
+
+    <div id="popup">
+        <div id="popupContent">
+            <p id="resultado"></p>
+            <button onclick="fecharPopup()">Fechar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
